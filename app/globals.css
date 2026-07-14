@@ -1,26 +1,25 @@
 @import "tailwindcss";
 
+ 
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg-primary: #090514;
+  --text-primary: #ffffff;
+  --card-bg: rgba(255, 255, 255, 0.01);
+  --card-border: rgba(255, 255, 255, 0.05);
+  --input-bg: rgba(0, 0, 0, 0.3);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html.light {
+  --bg-primary: #f8fafc;
+  --text-primary: #0f172a;
+  --card-bg: rgba(15, 23, 42, 0.02);
+  --card-border: rgba(15, 23, 42, 0.08);
+  --input-bg: rgba(255, 255, 255, 0.8);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
