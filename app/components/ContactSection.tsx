@@ -98,7 +98,7 @@ export default function ContactSection() {
         viewport={{ once: true }}
       >
         <a 
-          href="https://github.com" 
+          href="https://github.com/NorhanAdel" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="p-4 rounded-2xl bg-white/5 hover:bg-purple-600 text-gray-400 hover:text-white border border-white/10 transition-all"
@@ -106,7 +106,7 @@ export default function ContactSection() {
           <FaGithub className="w-5 h-5" />
         </a>
         <a 
-          href="https://linkedin.com" 
+          href="https://www.linkedin.com/in/norhan-adel-8ba0a3351" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="p-4 rounded-2xl bg-white/5 hover:bg-purple-600 text-gray-400 hover:text-white border border-white/10 transition-all"
